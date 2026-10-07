@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>533</width>
+    <height>277</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="labelPizza">
+      <property name="text">
+       <string>Pizza</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="labelDoplnky">
+      <property name="text">
+       <string>Doplňky +15kč</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QRadioButton" name="radioButtonDiavolo">
+      <property name="text">
+       <string>Diavolo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QCheckBox" name="checkBoxHouby">
+      <property name="text">
+       <string>Houby </string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QRadioButton" name="radioButtonMargarita">
+      <property name="text">
+       <string>Margharita</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QCheckBox" name="checkBoxZampion">
+      <property name="text">
+       <string>Šampióni</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QRadioButton" name="radioButtonHawaii">
+      <property name="text">
+       <string>Hawaii</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QCheckBox" name="checkBoxParmasan">
+      <property name="text">
+       <string>Parmasán</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QRadioButton" name="radioButtonTvaroh">
+      <property name="text">
+       <string>Tvarůžková</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QCheckBox" name="checkBoxZarafek">
+      <property name="text">
+       <string>Sír Zaráfkáč</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QRadioButton" name="radioButtonQuattro">
+      <property name="text">
+       <string>Quattroforgádži</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QCheckBox" name="checkBoxSalam">
+      <property name="text">
+       <string>Lovečák</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0" colspan="2">
+     <widget class="QLabel" name="labelCena">
+      <property name="text">
+       <string>aaa</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>533</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
